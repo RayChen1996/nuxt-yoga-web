@@ -11,7 +11,15 @@ export default {
   daisyui: {
     themes: [
       {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          primary: "blue",
+          secondary: "teal",
+        },
         mytheme: {
+          "text-primary": "#907A7B",
+          "text-secondary": "#C0A4A5",
+
           primary: "#907A7B",
           secondary: "#C0A4A5",
           accent: "#707070",
@@ -28,7 +36,9 @@ export default {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      "text-primary": "#907A7B",
+    },
   },
   plugins: [require("daisyui")],
 };

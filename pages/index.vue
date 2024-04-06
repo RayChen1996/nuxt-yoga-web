@@ -3,7 +3,9 @@
 const layout = "custom";
 </script>
 <template>
-  <div class="h-screen bg-white">
+  <div class="bg-white">
     <Banner />
+    <HomeBlock2 />
+    <HomeBlock3 />
   </div>
 </template>

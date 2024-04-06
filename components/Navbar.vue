@@ -47,8 +47,11 @@
         </ul>
       </div>
       <div class="navbar-end flex gap-4">
-        <a class="btn btn-outline rounded-3xl">立即預約</a>
-        <a class="btn btn-primary rounded-3xl">聯絡我們</a>
+        <a class="btn btn-outline rounded-3xl bg-[#F5F0E7]">立即預約</a>
+        <a
+          class="btn btn-primary rounded-3xl text-[#907A7B] border-[#907A7B] bg-[#F5F0E7]"
+          >聯絡我們</a
+        >
       </div>
     </div>
   </div>

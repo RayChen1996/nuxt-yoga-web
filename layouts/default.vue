@@ -1,8 +1,10 @@
 <template>
-  <div>
+  <div class="flex flex-col">
     <Navbar />
 
-    <slot />
+    <div class="flex-1">
+      <slot />
+    </div>
 
     <BasicFooter />
   </div>
