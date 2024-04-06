@@ -23,6 +23,7 @@
 
       <div class="relative rounded-full">
         <NuxtImg src="/yoga-3.jpeg" class="h-3/4 rounded-2xl" />
+        <NuxtImg src="/yoga-3.jpeg" class="h-3/4 rounded-2xl" />
         <div class="absolute bottom-36 left-3">
           <h3>整體健身</h3>
           <p>
