@@ -1,6 +1,6 @@
 <template>
   <div class="w-full bg-[#F5F0E7]">
-    <div class="container w-11/12 navbar">
+    <div class="container w-11/12 navbar my-5">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabIndex="{0}" role="button" class="btn btn-ghost lg:hidden">
@@ -41,16 +41,24 @@
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
-          <li><a>課程介紹</a></li>
-          <li><a>瑜珈空間</a></li>
-          <li><a>當月課表</a></li>
+          <li>
+            <!-- <nuxt-link to="/course">課程介紹</nuxt-link> -->
+            <NuxtLink :to="'course'"> 課程介紹 </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink :to="'yogaSpace'"> 瑜珈空間 </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink :to="'courseTable'"> 當月課表 </NuxtLink>
+          </li>
         </ul>
       </div>
       <div class="navbar-end flex gap-4">
         <a class="btn btn-outline rounded-3xl bg-[#F5F0E7]">立即預約</a>
-        <a
+        <Link
+          href="/"
           class="btn btn-primary rounded-3xl text-[#907A7B] border-[#907A7B] bg-[#F5F0E7]"
-          >聯絡我們</a
+          >聯絡我們</Link
         >
       </div>
     </div>

@@ -7,5 +7,7 @@ const layout = "custom";
     <Banner />
     <HomeBlock2 />
     <HomeBlock3 />
+    <HomeProjectPick />
+    <HomeUserExperience />
   </div>
 </template>
